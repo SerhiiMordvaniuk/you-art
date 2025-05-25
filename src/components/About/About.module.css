@@ -1,0 +1,23 @@
+.wrapper {
+  background-color: #fff3e4;
+  padding: 10px 20px 24px 20px;
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
+  text-align: start;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  color: #2f327d;
+  margin-bottom: 24px;
+}
+
+.accent {
+  color: #f48c06;
+}
+
+.photo {
+  display: none;
+}
