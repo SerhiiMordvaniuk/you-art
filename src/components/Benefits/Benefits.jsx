@@ -9,8 +9,10 @@ import { RiSpeakFill } from "react-icons/ri";
 import { MdInsertPhoto } from "react-icons/md";
 import { RiBrain2Fill } from "react-icons/ri";
 import { IoBook } from "react-icons/io5";
+import clsx from "clsx";
 
 const Benefits = () => {
+  const isMobile = true;
   return (
     <div className="container">
       <div className={s.wrapper}>
@@ -45,7 +47,7 @@ const Benefits = () => {
               Відчуття кольору та <br /> світло-тіні
             </p>
           </li>
-          <li className={s.item}>
+          <li className={clsx(s.item, isMobile && s.hidden)}>
             <div className={s.iconbg1}>
               <MdInsertPhoto size={30} />
             </div>
@@ -54,7 +56,7 @@ const Benefits = () => {
               художній фігурі
             </p>
           </li>
-          <li className={s.item}>
+          <li className={clsx(s.item, isMobile && s.hidden)}>
             <div className={s.iconbg2}>
               <RiBrain2Fill size={30} />
             </div>
@@ -64,7 +66,7 @@ const Benefits = () => {
               мислення та уяви
             </p>
           </li>
-          <li className={s.item}>
+          <li className={clsx(s.item, isMobile && s.hidden)}>
             <div className={s.iconbg3}>
               <RiSpeakFill size={30} />
             </div>

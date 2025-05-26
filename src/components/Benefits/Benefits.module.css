@@ -89,3 +89,7 @@
   left: 40%;
   margin-bottom: -15px;
 }
+
+.hidden {
+  display: none;
+}

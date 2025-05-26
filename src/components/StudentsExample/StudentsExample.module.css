@@ -1,0 +1,17 @@
+.wrapper {
+  padding-top: 40px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #2f327d;
+  margin-bottom: 20px;
+}
+.accent {
+  color: #f48c06;
+}
+
+.hidden {
+  display: none;
+}

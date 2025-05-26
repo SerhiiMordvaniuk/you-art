@@ -1,0 +1,35 @@
+.wrapper {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #2f327d;
+  margin-bottom: 6px;
+}
+.accent {
+  color: #f48c06;
+}
+
+.hidden {
+  display: none;
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #2f327d;
+}
+
+.list {
+  font-family: var(--second-family);
+  line-height: 160%;
+  color: #464646;
+  font-size: 14px;
+}

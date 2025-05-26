@@ -1,8 +1,10 @@
 import React from "react";
 
 import s from "./About.module.css";
+import clsx from "clsx";
 
 const About = () => {
+  const isMobil = true;
   return (
     <div className="container">
       <div className={s.wrapper}>
@@ -13,7 +15,7 @@ const About = () => {
           <span className={s.accent}>«YOU ART»</span>
         </h2>
         <img
-          className={s.photo}
+          className={clsx(s.photo, isMobil && s.hidden)}
           src="../../../public/img/normpthoto.png"
           alt="teacher"
         />
