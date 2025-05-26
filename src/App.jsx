@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About/About";
 import Benefits from "./components/Benefits/Benefits";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Prices from "./components/Prices/Prices";
@@ -17,6 +18,7 @@ function App() {
         <Prices />
         <StudentsExample />
       </main>
+      <Footer />
     </>
   );
 }
