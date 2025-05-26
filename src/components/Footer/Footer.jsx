@@ -24,24 +24,24 @@ const Footer = () => {
                 target="_blanc"
                 className={s.item}
               >
-                <MdOutlinePlace size={30} className={s.map} />
+                <MdOutlinePlace size={35} className={s.map} />
               </a>
               <a
                 href="https://www.instagram.com/_you___art"
                 target="_blanc"
                 className={s.item}
               >
-                <GrInstagram size={25} className={s.insta} />
+                <GrInstagram size={29} className={s.insta} />
               </a>
               <a
                 href="https://t.me/svitlanakorinevska"
                 target="_blanc"
                 className={s.item}
               >
-                <FaTelegramPlane size={25} className={s.telegram} />
+                <FaTelegramPlane size={30} className={s.telegram} />
               </a>
               <a href="tel:+380665565021" target="_blanc" className={s.item}>
-                <FaPhoneFlip size={22} className={s.phone} />
+                <FaPhoneFlip size={25} className={s.phone} />
               </a>
             </div>
           </div>
