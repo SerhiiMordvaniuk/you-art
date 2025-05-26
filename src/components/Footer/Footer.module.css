@@ -2,7 +2,71 @@ footer {
   background-color: #252641;
 }
 
+.wrapper {
+  padding: 20px 0;
+}
+
+.logodiv {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
-  stroke: #b2b3cf;
+  fill: #b2b3cf;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  width: 1px;
+  height: 100px;
+  background-color: #b2b3cf;
+}
+
+.addres {
+  display: flex;
+  align-items: center;
+}
+
+.networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.item {
   width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #393fcf;
+
+  &:hover {
+    .insta {
+      color: rgb(200, 3, 3);
+    }
+    .phone {
+      color: rgb(3, 159, 3);
+    }
+    .telegram {
+      color: #4fb0e1;
+    }
+    .map {
+      color: #f48c06;
+    }
+  }
+}
+
+.insta,
+.telegram,
+.phone,
+.map {
+  color: #191700;
+  transition: all 250ms ease;
 }
