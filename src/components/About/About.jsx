@@ -16,7 +16,7 @@ const About = () => {
         </h2>
         <img
           className={clsx(s.photo, isMobil && s.hidden)}
-          src="../../../public/img/normpthoto.png"
+          src="/img/normpthoto.png"
           alt="teacher"
         />
       </div>

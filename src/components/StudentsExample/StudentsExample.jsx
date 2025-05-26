@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./StudentsExample.module.css";
-import Sviper from "../Prices/Sviper";
+import Sviper from "./Sviper";
+
 const StudentsExample = () => {
   return (
     <div className="container">

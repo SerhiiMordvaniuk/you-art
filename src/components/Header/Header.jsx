@@ -9,12 +9,7 @@ const Header = () => {
     <header>
       <div className="container">
         <div className={s.wrapper}>
-          <img
-            className={s.logo}
-            src="/public/img/Logo.png"
-            alt="logo"
-            width={45}
-          />
+          <img className={s.logo} src="/img/Logo.png" alt="logo" width={45} />
           <button>
             <VscMenu size={30} />
           </button>
