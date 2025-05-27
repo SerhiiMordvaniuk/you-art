@@ -4,6 +4,7 @@ import Benefits from "./components/Benefits/Benefits";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import MobileMenu from "./components/MobileMenu/MobileMenu";
 import Prices from "./components/Prices/Prices";
 import StudentsExample from "./components/StudentsExample/StudentsExample";
 

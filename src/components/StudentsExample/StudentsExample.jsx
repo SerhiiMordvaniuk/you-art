@@ -4,7 +4,7 @@ import Sviper from "./Sviper";
 
 const StudentsExample = () => {
   return (
-    <div className="container">
+    <div className="container" id="example">
       <div className={s.wrapper}>
         <h3 className={s.title}>
           Роботи моїх <span className={s.accent}>учнів</span>

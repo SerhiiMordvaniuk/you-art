@@ -4,7 +4,7 @@ import s from "./Prices.module.css";
 const Prices = () => {
   const isMobile = true;
   return (
-    <div className="container">
+    <div className="container" id="prices">
       <div className={s.wrapper}>
         <h3 className={s.title}>
           Вартість <span className={s.accent}>занять</span>
