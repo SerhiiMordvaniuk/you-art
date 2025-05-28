@@ -65,7 +65,7 @@
   background: linear-gradient(135deg, #fbbf24, #f48c06);
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   .wrapper {
     display: flex;
     align-items: center;

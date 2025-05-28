@@ -10,8 +10,8 @@
   margin: 0 auto;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   .container {
-    max-width: 780px;
+    max-width: 768px;
   }
 }

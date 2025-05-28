@@ -10,24 +10,32 @@ const Prices = () => {
           Вартість <span className={s.accent}>занять</span>
         </h3>
         <p className={s.text}>Групові заняття:</p>
-        <ul className={s.list}>
-          <li>Малюки 5-7 років</li>
-          <li className={isMobile && s.hidden}>
-            Ігрове занурення в кольори, форми та техніки. Веселі майстер-класи,
-            де малюки вчаться через гру.
-          </li>
-          <li>Разове заняття: 300грн</li>
-          <li>Абонемент з 8 занять: 2000грн</li>
-        </ul>
-        <ul className={s.list}>
-          <li>Діти 8-13 років</li>
-          <li className={isMobile && s.hidden}>
-            Ігрове занурення в кольори, форми та техніки. Веселі майстер-класи,
-            де малюки вчаться через гру.
-          </li>
-          <li>Разове заняття: 300грн</li>
-          <li>Абонемент з 8 занять: 2000грн</li>
-        </ul>
+        <div className={s.prices}>
+          <div className={s.price1}>
+            <div className={s.bg1}></div>
+            <ul className={s.list}>
+              <li className={s.children}>Малюки 5-7 років</li>
+              <li className={isMobile && s.hidden}>
+                Ігрове занурення в кольори, форми та техніки. Веселі
+                майстер-класи, де малюки вчаться через гру.
+              </li>
+              <li>Разове заняття: 300грн</li>
+              <li>Абонемент з 8 занять: 2000грн</li>
+            </ul>
+          </div>
+          <div className={s.price2}>
+            <div className={s.bg2}></div>
+            <ul className={s.list}>
+              <li className={s.children}>Діти 8-13 років</li>
+              <li className={isMobile && s.hidden}>
+                Ігрове занурення в кольори, форми та техніки. Веселі
+                майстер-класи, де малюки вчаться через гру.
+              </li>
+              <li>Разове заняття: 300грн</li>
+              <li>Абонемент з 8 занять: 2000грн</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
