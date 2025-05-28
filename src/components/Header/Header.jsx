@@ -24,7 +24,13 @@ const Header = () => {
     <header>
       <div className="container">
         <div className={s.wrapper}>
-          <img className={s.logo} src="/img/Logo.png" alt="logo" width={45} />
+          <div className={s.logo}>
+            <p className={s.art}>
+              <span>y o u </span>
+              <span> a r t</span>
+            </p>
+            <p className={s.studio}>s t u d i o</p>
+          </div>
           <button onClick={mobMenuToggle}>
             {isMobMenuOpen ? (
               <AiOutlineClose size={30} />

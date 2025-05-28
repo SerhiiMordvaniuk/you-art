@@ -2,7 +2,6 @@ import React from "react";
 import s from "./MobileMenu.module.css";
 
 import { GrInstagram } from "react-icons/gr";
-import { RiTelegramLine } from "react-icons/ri";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { MdOutlinePlace } from "react-icons/md";
