@@ -11,7 +11,7 @@ import { MdOutlinePlace } from "react-icons/md";
 const Footer = () => {
   return (
     <footer>
-      <div className="container">
+      <div className="container" id="contacts">
         <div className={s.wrapper}>
           <div className={s.logodiv}>
             <div className={s.logo}>

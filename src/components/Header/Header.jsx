@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import s from "./Header.module.css";
 
@@ -6,9 +6,11 @@ import { VscMenu } from "react-icons/vsc";
 import { AiOutlineClose } from "react-icons/ai";
 
 import MobileMenu from "../MobileMenu/MobileMenu";
+import useDeviceType from "../../Hooks/screenwidth";
 
 const Header = () => {
   const [isMobMenuOpen, setIsMobMenuOpen] = useState(false);
+  const device = useDeviceType();
 
   const mobMenuToggle = () => {
     if (isMobMenuOpen) {
@@ -31,13 +33,32 @@ const Header = () => {
             </p>
             <p className={s.studio}>s t u d i o</p>
           </div>
-          <button onClick={mobMenuToggle}>
-            {isMobMenuOpen ? (
-              <AiOutlineClose size={30} />
-            ) : (
-              <VscMenu size={30} />
-            )}
-          </button>
+          {device === "tablet" || device === "laptop" ? (
+            <nav className={s.navigation}>
+              <a href="#prices" className={s.link}>
+                Вартість занять
+              </a>
+              <a href="#example" className={s.link}>
+                Приклади робіт
+              </a>
+              <a href="#contacts" className={s.link}>
+                Контакти
+              </a>
+            </nav>
+          ) : (
+            ""
+          )}
+          {device === "mobile" ? (
+            <button className={s.mobmenu} onClick={mobMenuToggle}>
+              {isMobMenuOpen ? (
+                <AiOutlineClose size={30} />
+              ) : (
+                <VscMenu size={30} />
+              )}
+            </button>
+          ) : (
+            ""
+          )}
         </div>
       </div>
       {isMobMenuOpen ? <MobileMenu onClick={mobMenuToggle} /> : null}

@@ -93,3 +93,30 @@
 .hidden {
   display: none;
 }
+
+@media (min-width: 780px) {
+  .title {
+    font-size: 26px;
+  }
+  .slogan {
+    font-size: 16px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    row-gap: 45px;
+  }
+
+  .item {
+    width: calc(33.333% - 30px);
+    margin-right: 45px;
+  }
+
+  .item:nth-child(3n) {
+    margin-right: 0;
+  }
+}

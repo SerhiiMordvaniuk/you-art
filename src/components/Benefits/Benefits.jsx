@@ -2,17 +2,17 @@ import React from "react";
 
 import s from "./Benefits.module.css";
 
-import { FaBookBookmark } from "react-icons/fa6";
 import { IoIosColorPalette } from "react-icons/io";
 import { IoMdColorFill } from "react-icons/io";
 import { RiSpeakFill } from "react-icons/ri";
 import { MdInsertPhoto } from "react-icons/md";
 import { RiBrain2Fill } from "react-icons/ri";
 import { IoBook } from "react-icons/io5";
-import clsx from "clsx";
+import useDeviceType from "../../Hooks/screenwidth";
 
 const Benefits = () => {
-  const isMobile = true;
+  const device = useDeviceType();
+
   return (
     <div className="container">
       <div className={s.wrapper}>
@@ -26,7 +26,7 @@ const Benefits = () => {
         <ul className={s.list}>
           <li className={s.item}>
             <div className={s.iconbg1}>
-              <IoBook size={30} />
+              <IoBook size={30} color="fff" />
             </div>
             <p className={s.text}>
               Грамотна побудова <br />
@@ -35,30 +35,30 @@ const Benefits = () => {
           </li>
           <li className={s.item}>
             <div className={s.iconbg2}>
-              <IoIosColorPalette size={30} />
+              <IoIosColorPalette size={30} color="fff" />
             </div>
             <p className={s.text}>Відчуття перспективи та композиції малюнка</p>
           </li>
           <li className={s.item}>
             <div className={s.iconbg3}>
-              <IoMdColorFill size={30} />
+              <IoMdColorFill size={30} color="fff" />
             </div>
             <p className={s.text}>
               Відчуття кольору та <br /> світло-тіні
             </p>
           </li>
-          <li className={clsx(s.item, isMobile && s.hidden)}>
+          <li className={device === "mobile" ? s.hidden : s.item}>
             <div className={s.iconbg1}>
-              <MdInsertPhoto size={30} />
+              <MdInsertPhoto size={30} color="fff" />
             </div>
             <p className={s.text}>
               Правильна анатомія в <br />
               художній фігурі
             </p>
           </li>
-          <li className={clsx(s.item, isMobile && s.hidden)}>
+          <li className={device === "mobile" ? s.hidden : s.item}>
             <div className={s.iconbg2}>
-              <RiBrain2Fill size={30} />
+              <RiBrain2Fill size={30} color="fff" />
             </div>
             <p className={s.text}>
               {" "}
@@ -66,9 +66,9 @@ const Benefits = () => {
               мислення та уяви
             </p>
           </li>
-          <li className={clsx(s.item, isMobile && s.hidden)}>
+          <li className={device === "mobile" ? s.hidden : s.item}>
             <div className={s.iconbg3}>
-              <RiSpeakFill size={30} />
+              <RiSpeakFill size={30} color="fff" />
             </div>
             <p className={s.text}>
               Комунікація та отримання задоволення від процесу
