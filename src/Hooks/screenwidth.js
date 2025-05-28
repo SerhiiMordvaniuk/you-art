@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function useDeviceType() {
   const getDeviceType = (width) => {
-    if (width < 780) return "mobile";
+    if (width < 768) return "mobile";
     if (width < 1280) return "tablet";
     return "laptop";
   };
