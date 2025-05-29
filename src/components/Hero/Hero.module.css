@@ -56,13 +56,28 @@
   color: #fafafa;
   font-size: 14px;
   letter-spacing: 0.02em;
-  transition: all 2500ms ease;
+
+  background: linear-gradient(135deg, #fdc73e, #d97e07, #fdc73e);
+  background-size: 400% 400%;
+  animation: animateGradient 4s ease infinite;
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .link:hover,
 .link:focus,
 .link:active {
-  background: linear-gradient(135deg, #fbbf24, #f48c06);
+  background: linear-gradient(135deg, #fdc73e, #f48c06, #fdc73e);
 }
 
 @media (min-width: 768px) {

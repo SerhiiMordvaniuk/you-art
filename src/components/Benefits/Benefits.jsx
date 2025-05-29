@@ -20,8 +20,8 @@ const Benefits = () => {
           Навчаю бачити, <span className={s.accent}>відчувати й малювати</span>
         </h3>
         <p className={s.slogan}>
-          У своєму стилі <span>викладання</span> я акцентую увагу на розвитку
-          таких якостей учня
+          У своєму стилі викладання я акцентую увагу на розвитку таких якостей
+          учня
         </p>
         <ul className={s.list}>
           <li className={s.item}>

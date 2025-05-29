@@ -14,10 +14,32 @@ footer {
 }
 
 .logo {
-  fill: #c0c0c0;
-  width: 120px;
-  margin: 0;
-  padding: 0;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #2f327d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5px;
+  background-color: #e6dbcd;
+  color: #2f327d;
+}
+
+.art {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 7px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.studio {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 4px;
 }
 
 .line {
@@ -69,4 +91,12 @@ footer {
 .map {
   color: #c0c0c0;
   transition: all 250ms ease;
+}
+
+.copy {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #b2b3cf;
 }

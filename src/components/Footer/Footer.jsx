@@ -3,7 +3,6 @@ import s from "./Footer.module.css";
 import Logo from "../Svg/Logo";
 
 import { GrInstagram } from "react-icons/gr";
-import { RiTelegramLine } from "react-icons/ri";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { MdOutlinePlace } from "react-icons/md";
@@ -15,7 +14,11 @@ const Footer = () => {
         <div className={s.wrapper}>
           <div className={s.logodiv}>
             <div className={s.logo}>
-              <Logo />
+              <p className={s.art}>
+                <span>y o u </span>
+                <span> a r t</span>
+              </p>
+              <p className={s.studio}>s t u d i o</p>
             </div>
             <div className={s.line}></div>
             <div className={s.networks}>
@@ -46,6 +49,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <p className={s.copy}>© 2025 YOU ART — простір для натхнення</p>
       </div>
     </footer>
   );

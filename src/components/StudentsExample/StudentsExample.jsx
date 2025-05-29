@@ -14,11 +14,11 @@ const StudentsExample = () => {
         </h3>
         <div className={s.examples}>
           <div className={device === "mobile" ? s.hidden : s.info}>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo modi
-              nulla voluptatibus omnis nobis adipisci natus voluptates suscipit!
-              Error ad delectus, nemo deleniti suscipit blanditiis eaque quas
-              quibusdam id pariatur?
+            <p className={s.text}>
+              Ми щодня створюємо щось нове. Ось кілька прикладів того, як мої
+              учні вчаться, розвиваються і діляться своїм баченням світу через
+              творчість. Якщо хочете побачити ще більше робіт — завітайте до
+              мого Instagram
             </p>
             <a
               href="https://www.instagram.com/_you___art"
