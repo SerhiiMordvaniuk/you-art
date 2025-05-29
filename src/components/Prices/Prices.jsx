@@ -2,37 +2,47 @@ import React from "react";
 import s from "./Prices.module.css";
 
 const Prices = () => {
-  const isMobile = true;
   return (
     <div className="container" id="prices">
       <div className={s.wrapper}>
         <h3 className={s.title}>
-          Вартість <span className={s.accent}>занять</span>
+          Розклад та вартість <span className={s.accent}>занять</span>
         </h3>
         <p className={s.text}>Групові заняття:</p>
         <div className={s.prices}>
           <div className={s.price1}>
-            <div className={s.bg1}></div>
             <ul className={s.list}>
-              <li className={s.children}>Малюки 5-7 років</li>
-              <li className={isMobile && s.hidden}>
-                Ігрове занурення в кольори, форми та техніки. Веселі
-                майстер-класи, де малюки вчаться через гру.
+              <li className={s.children}>Молодша група (6-9 р.)</li>
+              <li>
+                Малювання на бумазі: акварель, гуаш, маркери, кольорові олівці.
               </li>
-              <li>Разове заняття: 300грн</li>
-              <li>Абонемент з 8 занять: 2000грн</li>
+              <li>
+                Час занять: <br />
+                Вівторок та черверг 14:30-15:30 <br />
+                Субота 14:00-15:00
+              </li>
+              <li>
+                Разове заняття: 300грн <br />
+                Абонемент з 8 занять: 2000грн
+              </li>
             </ul>
           </div>
           <div className={s.price2}>
-            <div className={s.bg2}></div>
             <ul className={s.list}>
-              <li className={s.children}>Діти 8-13 років</li>
-              <li className={isMobile && s.hidden}>
-                Ігрове занурення в кольори, форми та техніки. Веселі
-                майстер-класи, де малюки вчаться через гру.
+              <li className={s.children}>Старша група (10-13 р.)</li>
+              <li>
+                Малювання на бумазі: акварель, гуаш, маркери, кольорові олівці.
               </li>
-              <li>Разове заняття: 300грн</li>
-              <li>Абонемент з 8 занять: 2000грн</li>
+              <li>
+                Час занять: <br />
+                Вівторок та черверг 16:00 - 17:15 <br />
+                Субота 15:15-16:30
+              </li>
+              <li>
+                Разове заняття: 300грн <br />
+                Абонемент з 8 занять: 2000грн
+              </li>
+              <li></li>
             </ul>
           </div>
         </div>
