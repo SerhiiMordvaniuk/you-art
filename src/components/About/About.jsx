@@ -1,7 +1,6 @@
 import React from "react";
 
 import s from "./About.module.css";
-import clsx from "clsx";
 import useDeviceType from "../../Hooks/screenwidth";
 
 const About = () => {

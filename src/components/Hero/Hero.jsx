@@ -19,13 +19,15 @@ const Hero = () => {
             <li className={s.item}>Ілюстрація в Procreate(на iPad)</li>
           </ul>
         </div>
-        <a
-          className={s.link}
-          href="https://t.me/svitlanakorinevska"
-          target="_blanc"
-        >
-          Записатися зараз
-        </a>
+        <div className={s.button}>
+          <a
+            className={s.link}
+            href="https://t.me/svitlanakorinevska"
+            target="_blanc"
+          >
+            Записатися зараз
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -78,3 +78,24 @@
     display: flex;
   }
 }
+
+@media (min-width: 1024px) {
+  .wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .info {
+    width: 80%;
+    gap: 40px;
+    align-items: start;
+  }
+  .text {
+    width: 420px;
+    font-size: 20px;
+  }
+}
