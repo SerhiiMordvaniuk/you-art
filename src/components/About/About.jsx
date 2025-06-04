@@ -13,7 +13,7 @@ const About = () => {
           className={
             device === "tablet" || device === "laptop" ? s.photo : s.hidden
           }
-          src="/img/normpthoto.png"
+          src="/img/normpthoto.webp"
           alt="teacher"
           width={492}
         />

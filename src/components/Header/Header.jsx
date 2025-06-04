@@ -49,7 +49,11 @@ const Header = () => {
             ""
           )}
           {device === "mobile" ? (
-            <button className={s.mobmenu} onClick={mobMenuToggle}>
+            <button
+              className={s.mobmenu}
+              onClick={mobMenuToggle}
+              aria-label="мобільне меню"
+            >
               {isMobMenuOpen ? (
                 <AiOutlineClose size={30} />
               ) : (
