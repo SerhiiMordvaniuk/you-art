@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+
+  padding: 10px;
+}
+
+.input {
+  border: 1px solid #f48c06;
+  resize: none;
+  padding: 15px 30px;
+  width: 400px;
+  height: 80px;
+  border-radius: 80px;
+  &:hover {
+    border: 1px solid red;
+  }
+  &:focus {
+    border: 2px solid #f48c06;
+  }
+}
+
+.textarea {
+  border: 1px solid #f48c06;
+  resize: none;
+  padding: 15px 30px;
+  width: 400px;
+  height: 80px;
+  border-radius: 80px;
+  &:hover {
+    border: 1px solid red;
+  }
+  &:focus {
+    border: 2px solid #f48c06;
+  }
+}
+
+.subbutton {
+  border-radius: 80px;
+  width: 160px;
+  height: 28px;
+  padding: 8px 10px;
+  background-color: #f48c06;
+}
+
+/* розмір тексту взяти з інших блоків */

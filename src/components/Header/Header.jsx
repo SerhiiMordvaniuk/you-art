@@ -26,12 +26,8 @@ const Header = () => {
     <header>
       <div className="container">
         <div className={s.wrapper}>
-          <div className={s.logo}>
-            <p className={s.art}>
-              <span>y o u </span>
-              <span> a r t</span>
-            </p>
-            <p className={s.studio}>s t u d i o</p>
+          <div className={s.logo_wrapper}>
+            <img src="/img/newLogo.jpg" alt="logo" className={s.logo} />
           </div>
           {device === "tablet" || device === "laptop" ? (
             <nav className={s.navigation}>

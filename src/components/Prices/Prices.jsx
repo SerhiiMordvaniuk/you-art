@@ -6,7 +6,7 @@ const Prices = () => {
     <div className="container" id="prices">
       <div className={s.wrapper}>
         <h3 className={s.title}>
-          Розклад та вартість <span className={s.accent}>занять</span>
+          Онлайн <span className={s.accent}>живопис</span>
         </h3>
         <p className={s.text}>Групові заняття:</p>
         <div className={s.prices}>

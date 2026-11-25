@@ -32,13 +32,6 @@ const MobileMenu = ({ onClick }) => {
           </nav>
           <div className={s.networks}>
             <a
-              href="https://maps.app.goo.gl/dQd4wDXhkDfC2cFN6"
-              target="_blanc"
-              className={s.item}
-            >
-              <MdOutlinePlace size={35} className={s.map} />
-            </a>
-            <a
               href="https://www.instagram.com/_you___art"
               target="_blanc"
               className={s.item}
