@@ -143,6 +143,10 @@
   .time {
     font-size: 16px;
   }
+  .icon,
+  .saturday_icon {
+    width: 36px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -191,5 +195,9 @@
   .time_info,
   .time {
     font-size: 18px;
+  }
+  .icon,
+  .saturday_icon {
+    width: 42px;
   }
 }
